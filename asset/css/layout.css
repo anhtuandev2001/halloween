@@ -5,11 +5,11 @@
 
 :root{
   /* width container */
-  --widthContainer: 1200px;
+  --widthContainer: 1280px;
   /* gap col */
-  --gap: 24px;
+  --gap: 40px;
   /* gap container */
-  --gap-container:20px;
+  --gap-container:15px;
 }
 
 .container {

@@ -1,18 +1,157 @@
-/* mobile first */
-
-/*  */
+/* laptop */
+@media (max-width:1024px) {
+    .gap-0-l{
+        --gap:0;
+    }
+    
+    .feature__container{
+        --gap:0;
+    }
+}
 
 /* tablet */
-@media (min-width:768px) {
+@media (max-width:768px) {
+    .h1{
+        text-transform: uppercase;
+        font-size: 5rem;
+        line-height: 1.2;
+    }
     
+    .h2{
+        font-size: 3.2rem;
+        line-height: 1.2;
+    }
+    
+    .h3{
+        font-size: 3.2rem;
+        line-height: 1.25;
+    }
+    
+    .h4{
+    }
+    
+    .h5{
+        font-size: 1.6rem;
+        line-height: 1.5;
+    }
+    
+    .h6{
+        
+    }
+    /*  */
+
+    /* text */
+    .text-center-m{
+        text-align: center;
+    }
+    /*  */
+
+    /*  */
+    .play-icon{
+        width: 13.41px;
+        height: 20.62px;
+    }
+
+    .movie__play{
+        padding: 8.63px 12.59px 9.3px 12.55px;
+    }
+
+    .feature__heading{
+        margin-top: 80px;
+    }
 }
 
-/* laptop */
-@media (min-width:1024px) {
-    
-}
 
-/* desktop */
-@media (min-width:1200px) {
+/* mobile */
+@media (max-width:568px) {
+     /* section */
+     .section{
+        padding-top: 80px;
+    }
+
+    .section__heading{
+        font-size: 3.2rem;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    /*  */
+
+    /* banner */
+    .banner{
+        height: 695px;
+    }
+
+    .banner__countdown{
+        margin-top: 35px;
+    }
+
+    .countdomwn__number{
+        font-size: 3.2rem;
+    }
+
+    .colon{
+        margin: 0 23px;
+    }
+    /*  */
+
+    /* category */
+    .category__list{
+        margin-top: -30px;
+    }
+
+    .category__item{
+        padding: 30px;
+        padding-right: 40px;
+        margin-top: 30px;
+    }
+
+    .category__img{
+        padding-top: 2px;
+        width: 90px;
+    }
     
+    .category__content{
+        margin-left: 40px;
+    }
+
+    .category__btn{
+        margin-top: 16px;
+    }
+    /*  */
+
+    /* seller */
+    .seller__list{
+        --gap:15px;
+    }
+    
+    .seller__slide{
+        margin-top: 8px;
+    }
+    /*  */
+
+    /* feature */
+    .feature__item{
+        margin-top: 40px;
+        padding-left: 35.49px;
+    }
+    
+    .feature__all{
+        margin-top: 40px;
+    }
+    /*  */
+
+    /* comit */
+    .comit{
+        margin-top: 80px;
+    }
+
+    .comit__item{
+        padding: 30px 19px;
+    }
+    /*  */
+
+    /* footer */
+    .footer__heading{
+        margin-bottom: 59px;
+    }
 }

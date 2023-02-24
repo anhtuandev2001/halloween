@@ -50,11 +50,11 @@ a{
     font-family: 'Creepster', cursive;
     font-weight: 400;
     letter-spacing: 0.1em;
-    text-transform: uppercase;
     margin: 0;
 }
 
 .h1{
+    text-transform: uppercase;
     font-size: 9.6rem;
     line-height: 1.2;
 
@@ -71,11 +71,11 @@ a{
 }
 
 .h4{
-    
 }
 
 .h5{
-    
+    font-size: 1.6rem;
+    line-height: 1.5;
 }
 
 .h6{
@@ -142,6 +142,11 @@ a{
 }
 /*  */
 
+/* border */
+.boder-r-50{
+    border-radius: 50%;
+}
+
 /* flex */
 .d-flex{
     display: flex;
@@ -186,7 +191,7 @@ a{
 }
 /*  */
 
-/* width     */
+/* width */
 .full-width{
     width: 100%;
 }
@@ -199,6 +204,13 @@ a{
 /* img */
 .object-cover{
     object-fit: cover;
+}
+
+/* transform center */
+.transfom-center{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 /* box model */

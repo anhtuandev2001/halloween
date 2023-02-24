@@ -7,7 +7,7 @@
   /* width container */
   --widthContainer: 1280px;
   /* gap col */
-  --gap: 40px;
+  --gap: 0;
   /* gap container */
   --gap-container:15px;
 }
@@ -170,6 +170,10 @@ max-width: calc(100%/12 * 12);
 
 /* laptop */
 @media (min-width: 1024px) {
+  :root{
+    --gap:40px;
+  }
+
   .l-1 {
     flex: 0 0 calc(100%/12 * 1);
     max-width: calc(100%/12 * 1);

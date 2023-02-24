@@ -7,6 +7,10 @@
     .feature__container{
         --gap:0;
     }
+
+    .seller__list{
+        --gap:15px;
+    }
 }
 
 /* tablet */
@@ -120,10 +124,6 @@
     /*  */
 
     /* seller */
-    .seller__list{
-        --gap:15px;
-    }
-    
     .seller__slide{
         margin-top: 8px;
     }

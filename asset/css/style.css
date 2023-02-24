@@ -133,6 +133,10 @@
     margin-right: 8px;
 }
 
+.slide__img--active{
+    border: solid 1px var(--cl-main);
+}
+
 .seller__content{
     margin-top: 24px;
     color: var(--text-light);

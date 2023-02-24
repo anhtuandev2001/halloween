@@ -66,9 +66,11 @@ playMovie.addEventListener('click',playVideo);
 const sellerImgs = $$('.seller__img');
 const slideImgs = $$('.slide__img');
 
-slideImgs.forEch(function(slideImg,index){
+slideImgs.forEach(function(slideImg,index){
     slideImg.onclick = function(){
-        
+        $('.slide__img.slide__img--active').classList.remove('slide__img--active')
+
+        slideImg.classList.add('slide__img--active')
     }
 })
 

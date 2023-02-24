@@ -60,7 +60,15 @@ let playVideo = () =>{
     closeVideo();
 }
 
-
 playMovie.addEventListener('click',playVideo);
+// 
 
+const sellerImgs = $$('.seller__img');
+const slideImgs = $$('.slide__img');
+
+slideImgs.forEch(function(slideImg,index){
+    slideImg.onclick = function(){
+        
+    }
+})
 

@@ -45,18 +45,22 @@ let countdownTimer = setInterval('timer()', 1000);
 // 
 
 const playMovie = $('.js-movie__play');
-const decorImg = $('.js-decor-img');
-const decorVideo = ('.js-decor__video')
+const decorVideo = $('.js-decor__video');
 
-let toogleElemtn = (e,className) => {
+let toogleElement = (e,className) => {
     let element = $(e);
+    console.log(element)
     element.classList.toggle(className);
 }
 
 let playVideo = () =>{
-    toogleElemtn('.js-movie__play','hide');
-    toogleElemtn('.-js-decor-img','hide');
-    toogleElemtn('.decor__video','show');
+    toogleElement('.js-movie__play','hide');
+    toogleElement('.js-decor-img','hide');
+    toogleElement('.decor__video','show');
+    closeVideo();
 }
 
-playMovie.addEventListener('click',playVideo)
+
+playMovie.addEventListener('click',playVideo);
+
+

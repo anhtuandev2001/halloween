@@ -131,6 +131,11 @@ a{
     display: inline-block;
 }
 
+.btn:hover{
+    background-color: var(--cl-hover);
+    cursor: pointer;
+}
+
 .btn--shop-now{
     padding: 15px 30px;
 }

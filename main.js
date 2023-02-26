@@ -47,10 +47,8 @@ let countdownTimer = setInterval('timer()', 1000);
 const playMovie = $('.js-movie__play');
 const decorVideo = $('.js-decor__video');
 
-let toogleElement = (e,className) => {
-    let element = $(e);
-    console.log(element)
-    element.classList.toggle(className);
+let toogleElement = (element,className) => {
+  $(element).classList.toggle(className);
 }
 
 let playVideo = () =>{

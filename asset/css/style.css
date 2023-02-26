@@ -140,6 +140,10 @@
     margin-right: 8px;
 }
 
+.slide__img:hover{
+    cursor: pointer;
+}
+
 .slide__img--active{
     border: solid 1px var(--cl-main);
 }
@@ -179,6 +183,11 @@
     border: none;
     background-color: var(--cl-main);
         padding: 32px 46.7px 31.5px 46.6px;
+}
+
+.movie__play:hover{
+    cursor: pointer;
+    background-color: var(--cl-hover);
 }
 
 .decor__video{

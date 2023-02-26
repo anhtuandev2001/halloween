@@ -127,6 +127,14 @@
     .seller__slide{
         margin-top: 8px;
     }
+
+    .seller__media{
+        height: 200px;
+    }
+
+    .seller__img{
+        max-width: 145px;
+    }
     /*  */
 
     /* feature */

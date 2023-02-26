@@ -116,9 +116,16 @@
     margin-top: 15px;
 }
 
-.seller__img{
+.seller__media{
+    height: 350px;
     background-color: var(--bg-item);
-    padding: 37px 18px 33px 18px;
+}
+
+.seller__img{
+    padding: 37px 0 33px 0;
+    width: 100%;
+    display: block;
+    max-width: 250px;
 }
 
 .seller__slide{

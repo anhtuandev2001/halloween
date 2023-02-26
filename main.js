@@ -63,14 +63,23 @@ let playVideo = () =>{
 playMovie.addEventListener('click',playVideo);
 // 
 
-const sellerImgs = $$('.seller__img');
 const slideImgs = $$('.slide__img');
+const sellerItems = $$('.seller__item');
 
-slideImgs.forEach(function(slideImg,index){
-    slideImg.onclick = function(){
-        $('.slide__img.slide__img--active').classList.remove('slide__img--active')
 
-        slideImg.classList.add('slide__img--active')
-    }
+
+sellerItems.forEach(function(ele,index){
+    let sellerImg = ele.querySelector('.seller__img');
+    let slideSrc = ele.querySelector('.slide__img--active').getAttribute('src');
+    sellerImg.setAttribute("src", slideSrc);
+
+    ele.querySelectorAll('.slide__img').forEach((item) => {
+        item.onclick = function(){
+            ele.querySelector('.slide__img.slide__img--active').classList   .remove('slide__img--active');
+            this.classList.add('slide__img--active')
+            let slideSrc = ele.querySelector('.slide__img--active').getAttribute('src');
+            sellerImg.setAttribute("src", slideSrc);
+        }
+    })
 })
 
